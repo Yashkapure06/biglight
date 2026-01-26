@@ -26,6 +26,8 @@ The app will be available at `http://localhost:5173/`
 
 ### Storybook
 
+**Live Storybook:** [View deployed Storybook](https://biglight-liard.vercel.app/)
+
 **How to run Storybook locally:**
 
 ```bash
@@ -56,7 +58,7 @@ npm run build-storybook
 
 ### In Storybook
 
-1. Open Storybook in your browser (`http://localhost:6006/`)
+1. Open Storybook in your browser ([Live Storybook](https://biglight-liard.vercel.app/) or `http://localhost:6006/` for local)
 2. Look for the **Theme** toolbar control at the top of the Storybook interface
 3. Click the theme dropdown to switch between:
    - **Brand A**: Orange/teal color scheme (as shown in Figma)
