@@ -237,7 +237,7 @@ export function LoginDrawer({
 				ui.padding,
 				'border',
 				'border-grey-300',
-				variant === 'desktop' ? 'h-[850px]' : 'h-[650px]',
+				variant === 'desktop' ? 'h-[750px]' : 'h-[550px]',
 				className,
 			]
 				.filter(Boolean)
