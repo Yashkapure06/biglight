@@ -14,7 +14,6 @@ const config: StorybookConfig = {
 	docs: {
 		autodocs: 'tag',
 	},
-	outputDir: '../dist/storybook',
 };
 
 export default config;
