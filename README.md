@@ -53,8 +53,8 @@ npm run build-storybook
 ### In Storybook
 
 Use the **Theme** toolbar control in Storybook to switch between:
-- **Brand A**: Orange/teal color scheme (as shown in Figma)
-- **Brand B**: Different visual styling (explore the JSON tokens to see differences)
+- **Brand A**: Orange/teal color scheme
+- **Brand B**: Different visual styling 
 
 The theme switcher is located in the Storybook toolbar at the top of the screen.
 
