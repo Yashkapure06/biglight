@@ -1,0 +1,234 @@
+/**
+ * Design Token CSS Variables
+ * 
+ * This file is generated from design tokens and provides CSS custom properties
+ * for theme switching. The variables are set based on the data-theme attribute.
+ */
+
+/* Brand A Theme (Default) */
+[data-theme="brandA"],
+:root {
+	/* Colors */
+	--color-primary: #00a896;
+	--color-secondary: #ffffff;
+	--color-tertiary: #00a896;
+	--color-background: #ffffff;
+	--color-surface: #ffffff;
+	
+	/* Text Colors */
+	--color-text-primary: #000000;
+	--color-text-secondary: #767676;
+	--color-text-disabled: #949494;
+	--color-text-error: #d32f2f;
+	--color-text-success: #2e7d32;
+	
+	/* Border Colors */
+	--color-border-primary: #000000;
+	--color-border-disabled: #cdcdcd;
+	--color-border-error: #d32f2f;
+	--color-border-success: #2e7d32;
+	--color-border-focus: #00a896;
+	
+	/* Button Colors - Based on Mapped/BrandA tokens from figma-tokens.json */
+	/* Primary: Uses Tertiary.Default (#1fceb5) with BLACK text  */
+	--color-button-primary: #1fceb5; /* Action.Primary = Tertiary.Default = Green.Default */
+	--color-button-primary-text: #000000; /* BLACK text on teal background  */
+	--color-button-primary-hover: #000000; /* Action.Hover-Primary = Neutral.Black */
+	--color-button-primary-hover-text: #ffffff; /* White text on black */
+	--color-button-primary-disabled-bg: #f2f2f2; /* Grey.200 - More visible disabled background */
+	--color-button-primary-disabled-text: #949494; /* Grey.500 - Muted but visible disabled text */
+	
+	/* Secondary: Uses Neutral.Black with OnSecondary text (White) */
+	--color-button-secondary: #000000; /* Action.Secondary = Neutral.Black */
+	--color-button-secondary-text: #ffffff; /* Text.Action.OnSecondary */
+	--color-button-secondary-hover: #1fceb5; /* Action.Hover-Secondary = Tertiary.Default */
+	--color-button-secondary-hover-text: #000000; /* Text.Action.OnPrimary (black on teal) */
+	--color-button-secondary-disabled-bg: #f2f2f2; /* Grey.200 - More visible disabled background */
+	--color-button-secondary-disabled-text: #949494; /* Grey.500 - Muted but visible disabled text */
+	
+	/* Tertiary: White/transparent with OnTertiary text (Black) and border */
+	--color-button-tertiary: #ffffff; /* Transparent/White background */
+	--color-button-tertiary-text: #000000; /* Text.Action.OnTertiary */
+	--color-button-tertiary-border: #000000; /* Border.Colour.Primary = Neutral.Black */
+	--color-button-tertiary-hover: #000000; /* Action.Hover-Primary = Neutral.Black */
+	--color-button-tertiary-hover-text: #ffffff; /* White text on black */
+	--color-button-tertiary-disabled-bg: #f2f2f2; /* Grey.200 - More visible disabled background */
+	--color-button-tertiary-disabled-text: #949494; /* Grey.500 - Muted but visible disabled text */
+	--color-button-tertiary-disabled-border: #cdcdcd; /* Grey.400 - Light grey border for disabled */
+	
+	/* State Colors */
+	--color-error: #d32f2f;
+	--color-success: #2e7d32;
+	--color-warning: #ed6c02;
+	
+	/* Card Colors */
+	--color-card-background: #fc4c02; /* Orange.Default - vibrant orange-red */
+	--color-card-text: #ffffff; /* White text on orange background */
+	--color-card-button: #1fceb5; /* Tertiary.Default - teal green for button */
+	--color-card-button-hover: #1aad98; /* Green.600 - darker teal on hover */
+	
+	/* Spacing */
+	--spacing-xs: 4px;
+	--spacing-sm: 8px;
+	--spacing-md: 16px;
+	--spacing-lg: 24px;
+	--spacing-xl: 32px;
+	--spacing-2xl: 40px;
+	--spacing-3xl: 48px;
+	
+	/* Border Radius */
+	--radius-sm: 4px;
+	--radius-md: 8px;
+	--radius-lg: 20px;
+	--radius-xl: 40px;
+	--radius-round: 9999px;
+	
+	/* Typography */
+	--font-heading: Inter;
+	--font-body: Inter;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-bold: 700;
+	
+	/* Font Sizes */
+	--font-size-action-sm: 14px;
+	--font-size-action-md: 16px;
+	--font-size-body-sm: 14px;
+	--font-size-body-md: 16px;
+	
+	/* Line Heights */
+	--line-height-body-md: 22.4px;
+	--line-height-body-sm: 19.6px;
+	
+	/* Button Specific */
+	--button-height-sm: 40px;
+	--button-height-md: 48px;
+	--button-height-lg: 56px; /* Scaled up from md */
+	--button-min-width-sm: 80px;
+	--button-min-width-md: 100px;
+	--button-min-width-lg: 120px; /* Scaled up from md to maintain proportions */
+	--button-padding-x-sm: 12px;
+	--button-padding-x-md: 16px; /* Scale.400 */
+	--button-padding-x-lg: 20px; /* Scaled up from md */
+	--button-padding-y-sm: 10px;
+	--button-padding-y-md: 12px; /* (48 - 22.4) / 2 ≈ 12.8px */
+	--button-padding-y-lg: 14px; /* (56 - 25.2) / 2 ≈ 15.4px, rounded to 14px */
+	--button-gap: 4px; /* from tokens */
+	--button-border-radius: 24px; /* Half of height for fully rounded */
+	
+	/* Font Sizes for Large */
+	--font-size-action-lg: 18px; /* Body.Lg from tokens */
+	--line-height-body-lg: 25.2px; /* 18 * 1.4, similar ratio to md */
+}
+
+/* Brand B Theme */
+[data-theme="brandB"] {
+	/* Colors - Brand B uses different primary colors */
+	--color-primary: #8b2635;
+	--color-secondary: #ffffff;
+	--color-tertiary: #8b2635;
+	--color-background: #f5f5f5;
+	--color-surface: #ffffff;
+	
+	/* Text Colors - Similar to Brand A */
+	--color-text-primary: #000000;
+	--color-text-secondary: #767676;
+	--color-text-disabled: #949494;
+	--color-text-error: #d32f2f;
+	--color-text-success: #2e7d32;
+	
+	/* Border Colors */
+	--color-border-primary: #000000;
+	--color-border-disabled: #cdcdcd;
+	--color-border-error: #d32f2f;
+	--color-border-success: #2e7d32;
+	--color-border-focus: #8b2635;
+	
+	/* Button Colors - Brand B specific (same structure as Brand A) */
+	--color-button-primary: #8b2635; /* Brand B primary color */
+	--color-button-primary-text: #000000; /* OnPrimary - Black text */
+	--color-button-primary-hover: #000000; /* Hover-Primary - Black bg */
+	--color-button-primary-hover-text: #ffffff; /* White text on hover */
+	--color-button-primary-disabled-bg: #f2f2f2; /* Grey.200 - More visible disabled background */
+	--color-button-primary-disabled-text: #949494; /* Grey.500 - Muted but visible disabled text */
+	
+	--color-button-secondary: #8b2635; /* Brand B secondary */
+	--color-button-secondary-text: #ffffff; /* OnSecondary - White text */
+	--color-button-secondary-hover: #8b2635; /* Brand B hover */
+	--color-button-secondary-hover-text: #000000; /* Black text on hover */
+	--color-button-secondary-disabled-bg: #f2f2f2; /* Grey.200 - More visible disabled background */
+	--color-button-secondary-disabled-text: #949494; /* Grey.500 - Muted but visible disabled text */
+	
+	--color-button-tertiary: #ffffff; /* White/transparent bg */
+	--color-button-tertiary-text: #000000; /* OnTertiary - Black text */
+	--color-button-tertiary-border: #000000; /* Black border */
+	--color-button-tertiary-hover: #000000; /* Black bg on hover */
+	--color-button-tertiary-hover-text: #ffffff; /* White text on hover */
+	--color-button-tertiary-disabled-bg: #f2f2f2; /* Grey.200 - More visible disabled background */
+	--color-button-tertiary-disabled-text: #949494; /* Grey.500 - Muted but visible disabled text */
+	--color-button-tertiary-disabled-border: #cdcdcd; /* Grey.400 - Light grey border for disabled */
+	
+	/* State Colors */
+	--color-error: #d32f2f;
+	--color-success: #2e7d32;
+	--color-warning: #ed6c02;
+	
+	/* Card Colors - Brand B (same structure as Brand A) */
+	--color-card-background: #fc4c02; /* Orange.Default - same as Brand A */
+	--color-card-text: #ffffff; /* White text */
+	--color-card-button: #1fceb5; /* Tertiary.Default - teal green */
+	--color-card-button-hover: #1aad98; /* Green.600 - darker teal */
+	
+	/* Spacing - Same as Brand A */
+	--spacing-xs: 4px;
+	--spacing-sm: 8px;
+	--spacing-md: 16px;
+	--spacing-lg: 24px;
+	--spacing-xl: 32px;
+	--spacing-2xl: 40px;
+	--spacing-3xl: 48px;
+	
+	/* Border Radius - Same as Brand A */
+	--radius-sm: 4px;
+	--radius-md: 8px;
+	--radius-lg: 20px;
+	--radius-xl: 40px;
+	--radius-round: 9999px;
+	
+	/* Typography - Brand B uses different fonts */
+	--font-heading: mencken-std-head-narrow;
+	--font-body: Open Sans;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-bold: 700;
+	
+	/* Font Sizes - Same as Brand A */
+	--font-size-action-sm: 14px;
+	--font-size-action-md: 16px;
+	--font-size-body-sm: 14px;
+	--font-size-body-md: 16px;
+	
+	/* Line Heights - Same as Brand A */
+	--line-height-body-md: 22.4px;
+	--line-height-body-sm: 19.6px;
+	
+	/* Button Specific - Same as Brand A */
+	--button-height-sm: 40px;
+	--button-height-md: 48px;
+	--button-height-lg: 56px; /* Scaled up from md */
+	--button-min-width-sm: 80px;
+	--button-min-width-md: 100px;
+	--button-min-width-lg: 120px; /* Scaled up from md to maintain proportions */
+	--button-padding-x-sm: 12px;
+	--button-padding-x-md: 16px;
+	--button-padding-x-lg: 20px; /* Scaled up from md */
+	--button-padding-y-sm: 10px;
+	--button-padding-y-md: 12px;
+	--button-padding-y-lg: 14px; /* (56 - 25.2) / 2 ≈ 15.4px, rounded to 14px */
+	--button-gap: 4px; /* Scale.100 - matches Figma ~3-4px visual spacing */
+	--button-border-radius: 24px;
+	
+	/* Font Sizes for Large */
+	--font-size-action-lg: 18px; /* Body.Lg from tokens */
+	--line-height-body-lg: 25.2px; /* 18 * 1.4, similar ratio to md */
+}
