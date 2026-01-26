@@ -26,13 +26,15 @@ The app will be available at `http://localhost:5173/`
 
 ### Storybook
 
-Start Storybook to view all components and their variants:
+**How to run Storybook locally:**
 
 ```bash
 npm run storybook
 ```
 
 Storybook will be available at `http://localhost:6006/`
+
+This will start the Storybook development server where you can view all components, their variants, states, and interactive documentation.
 
 ### Build
 
@@ -50,11 +52,15 @@ npm run build-storybook
 
 ## Theme Switching
 
+**How to switch between themes:**
+
 ### In Storybook
 
-Use the **Theme** toolbar control in Storybook to switch between:
-- **Brand A**: Orange/teal color scheme
-- **Brand B**: Different visual styling 
+1. Open Storybook in your browser (`http://localhost:6006/`)
+2. Look for the **Theme** toolbar control at the top of the Storybook interface
+3. Click the theme dropdown to switch between:
+   - **Brand A**: Orange/teal color scheme (as shown in Figma)
+   - **Brand B**: Different visual styling
 
 The theme switcher is located in the Storybook toolbar at the top of the screen.
 
@@ -159,6 +165,16 @@ All components include:
 - **TypeScript** - Type safety
 - **Vite** - Fast build tool
 
+
+## Time Spent
+
+**Approximate time spent on this project:**
+
+- **Component development** (Button, Input, Dropdown, Card, LoginDrawer): ~2 hours
+- **Storybook setup and stories**: ~3 hours
+- **Documentation**: ~1-2 hours
+
+**Total**: Approximately 6-7 hours
 
 ## AI Usage
 
